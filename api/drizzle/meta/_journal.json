@@ -8,6 +8,13 @@
       "when": 1733310965809,
       "tag": "0000_lean_excalibur",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1734524821704,
+      "tag": "0001_tidy_scourge",
+      "breakpoints": true
     }
   ]
 }

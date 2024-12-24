@@ -17,7 +17,7 @@ export async function listProducts (req: Request, res: Response){
 export async function createProduct (req: Request, res: Response){
     console.log(req.body)
   try{ 
-
+     console.log(req.userId);
      const [product]= await db.insert(productsTable)
      .values(req.cleanBody)
      .returning();
